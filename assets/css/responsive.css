@@ -293,9 +293,7 @@
   }
   .design-area .design-content ul li {
     font-size: 16px;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+    flex: 0 0 100%;
     max-width: 100%;
   }
   .design-area .design-content ul li i {
@@ -519,39 +517,39 @@
     text-align: center;
   }
   /*-- End Team --*/
-  /*-- Testimonials --*/
-  .testimonials-area .testimonials-item p {
+  /*-- membership --*/
+  .membership-area .membership-item p {
     font-size: 17px;
   }
-  .testimonials-area .owl-prev {
+  .membership-area .owl-prev {
     top: unset;
     left: 0;
     bottom: 0;
   }
-  .testimonials-area .owl-next {
+  .membership-area .owl-next {
     top: unset;
     right: 0;
     bottom: 0;
   }
-  .testimonials-area .testimonials-img img:nth-child(1) {
+  .membership-area .membership-img img:nth-child(1) {
     display: none;
   }
-  .testimonials-area .testimonials-img img:nth-child(2) {
+  .membership-area .membership-img img:nth-child(2) {
     display: none;
   }
-  .testimonials-area .testimonials-img img:nth-child(3) {
+  .membership-area .membership-img img:nth-child(3) {
     display: none;
   }
-  .testimonials-area .testimonials-img img:nth-child(4) {
+  .membership-area .membership-img img:nth-child(4) {
     display: none;
   }
-  .testimonials-area .testimonials-img img:nth-child(5) {
+  .membership-area .membership-img img:nth-child(5) {
     display: none;
   }
-  .testimonials-area .testimonials-img img:nth-child(6) {
+  .membership-area .membership-img img:nth-child(6) {
     display: none;
   }
-  /*-- End Testimonials --*/
+  /*-- End membership --*/
   /*-- Talk --*/
   .talk-area {
     text-align: center;
@@ -593,24 +591,12 @@
   .app-area .app-content ul li a {
     max-width: 120px;
   }
-  @-webkit-keyframes app-ani-one {
-    30% {
-      -webkit-transform: rotate(2deg);
-              transform: rotate(2deg);
-    }
-    70% {
-      -webkit-transform: rotate(-3deg);
-              transform: rotate(-3deg);
-    }
-  }
   @keyframes app-ani-one {
     30% {
-      -webkit-transform: rotate(2deg);
-              transform: rotate(2deg);
+      transform: rotate(2deg);
     }
     70% {
-      -webkit-transform: rotate(-3deg);
-              transform: rotate(-3deg);
+      transform: rotate(-3deg);
     }
   }
   .pagination-area ul li {
@@ -757,7 +743,6 @@
   }
   /*----- End Rules CSS -----*/
 }
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /*----- Default CSS -----*/
   body {
@@ -1270,39 +1255,39 @@
     text-align: center;
   }
   /*-- End Team --*/
-  /*-- Testimonials --*/
-  .testimonials-area .testimonials-item p {
+  /*-- membership --*/
+  .membership-area .membership-item p {
     font-size: 20px;
   }
-  .testimonials-area .owl-prev {
+  .membership-area .owl-prev {
     top: unset;
     left: 0;
     bottom: 0;
   }
-  .testimonials-area .owl-next {
+  .membership-area .owl-next {
     top: unset;
     right: 0;
     bottom: 0;
   }
-  .testimonials-area .testimonials-img img:nth-child(1) {
+  .membership-area .membership-img img:nth-child(1) {
     display: none;
   }
-  .testimonials-area .testimonials-img img:nth-child(2) {
+  .membership-area .membership-img img:nth-child(2) {
     display: none;
   }
-  .testimonials-area .testimonials-img img:nth-child(3) {
+  .membership-area .membership-img img:nth-child(3) {
     display: none;
   }
-  .testimonials-area .testimonials-img img:nth-child(4) {
+  .membership-area .membership-img img:nth-child(4) {
     display: none;
   }
-  .testimonials-area .testimonials-img img:nth-child(5) {
+  .membership-area .membership-img img:nth-child(5) {
     display: none;
   }
-  .testimonials-area .testimonials-img img:nth-child(6) {
+  .membership-area .membership-img img:nth-child(6) {
     display: none;
   }
-  /*-- End Testimonials --*/
+  /*-- End membership --*/
   /*-- Talk --*/
   .talk-area {
     text-align: center;
@@ -1335,24 +1320,12 @@
   .app-area .app-content ul li a {
     max-width: 120px;
   }
-  @-webkit-keyframes app-ani-one {
-    30% {
-      -webkit-transform: rotate(2deg);
-              transform: rotate(2deg);
-    }
-    70% {
-      -webkit-transform: rotate(-3deg);
-              transform: rotate(-3deg);
-    }
-  }
   @keyframes app-ani-one {
     30% {
-      -webkit-transform: rotate(2deg);
-              transform: rotate(2deg);
+      transform: rotate(2deg);
     }
     70% {
-      -webkit-transform: rotate(-3deg);
-              transform: rotate(-3deg);
+      transform: rotate(-3deg);
     }
   }
   /*----- End About CSS -----*/
@@ -1400,7 +1373,6 @@
   }
   /*----- End Rules CSS -----*/
 }
-
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .counter-area .counter-item h3 {
     font-size: 32px;
@@ -1409,7 +1381,6 @@
     font-size: 14px;
   }
 }
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .banner-area .banner-shape img:nth-child(1) {
     top: 195px;
@@ -1455,21 +1426,18 @@
     padding-right: 15px;
   }
 }
-
 @media only screen and (min-width: 1200px) and (max-width: 1799px) {
   .user-form-area .user-content {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
-
 @media only screen and (min-width: 1800px) {
   .banner-area.two .banner-shape-two img {
     right: 155px;
     max-width: 720px;
   }
 }
-
 @media only screen and (max-width: 991px) {
   .mobile-nav .logo {
     max-width: 85px;
@@ -1493,8 +1461,7 @@
     text-align: center;
     padding-top: 10px;
     padding-bottom: 5px;
-    -webkit-box-shadow: 0px 10px 20px 0px #d3d9fd78;
-            box-shadow: 0px 10px 20px 0px #d3d9fd78;
+    box-shadow: 0px 10px 20px 0px rgba(211, 217, 253, 0.4705882353);
   }
   .side-nav .left-btn {
     padding-right: 15px;
@@ -1504,14 +1471,12 @@
     margin-right: 5px;
   }
 }
-
 @media (min-width: 1300px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 1320px;
     width: 100%;
   }
 }
-
 @media only screen and (min-width: 1199px) and (max-width: 1350px) {
   .banner-area .banner-shape img:nth-child(1) {
     top: 180px;
@@ -1524,10 +1489,8 @@
     max-width: 540px;
   }
 }
-
 @media only screen and (min-width: 2700px) {
   .banner-area.two .banner-shape-two img {
     right: 435px;
   }
-}
-/*# sourceMappingURL=responsive.css.map */
+}/*# sourceMappingURL=responsive.css.map */

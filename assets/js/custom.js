@@ -107,8 +107,8 @@ jQuery(function ($) {
 		}
 	});
 
-	// Testimonials Slider JS
-	$('.testimonials-slider').owlCarousel({
+	// membership Slider JS
+	$('.membership-slider').owlCarousel({
 		items: 1,
 		loop: true,
 		margin: 20,

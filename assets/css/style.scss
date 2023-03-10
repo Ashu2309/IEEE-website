@@ -3379,10 +3379,10 @@ footer {
 }
 /*-- End Team --*/
 
-/*-- Testimonials --*/
-.testimonials-area {
+/*-- membership --*/
+.membership-area {
     background-color: #f7f7f7;
-    background-image: url('../img/digital/testimonials-bg.png');
+    background-image: url('../img/digital/membership-bg.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -3391,7 +3391,7 @@ footer {
     .section-title.three {
         text-align: center;
     }
-    .testimonials-item {
+    .membership-item {
         text-align: center;
         max-width: 830px;
         margin-left: auto;
@@ -3482,7 +3482,7 @@ footer {
             }
         }
     }
-    .testimonials-img {
+    .membership-img {
         img {
             position: absolute;
             border-radius: 50%;
@@ -3521,7 +3521,7 @@ footer {
         }
     }
 }
-/*-- End Testimonials --*/
+/*-- End membership --*/
 
 /*-- Blog --*/
 .blog-area.two {
@@ -5067,11 +5067,11 @@ footer {
         }
     }
 }
-.testimonials-area.two {
+.membership-area.two {
     background-color: #fff;
     background-image: unset;
 
-    .testimonials-item {
+    .membership-item {
         margin-bottom: 30px;
 
         img {

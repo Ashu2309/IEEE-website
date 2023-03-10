@@ -676,9 +676,9 @@
     }
     /*-- End Team --*/
 
-    /*-- Testimonials --*/
-    .testimonials-area {
-        .testimonials-item {
+    /*-- membership --*/
+    .membership-area {
+        .membership-item {
             p {
                 font-size: 17px;
             }
@@ -693,7 +693,7 @@
             right: 0;
             bottom: 0;
         }
-        .testimonials-img {
+        .membership-img {
             img {
                 &:nth-child(1) {
                     display: none;
@@ -716,7 +716,7 @@
             }
         }
     }
-    /*-- End Testimonials --*/
+    /*-- End membership --*/
 
     /*-- Talk --*/
     .talk-area {
@@ -1671,9 +1671,9 @@
     }
     /*-- End Team --*/
 
-    /*-- Testimonials --*/
-    .testimonials-area {
-        .testimonials-item {
+    /*-- membership --*/
+    .membership-area {
+        .membership-item {
             p {
                 font-size: 20px;
             }
@@ -1688,7 +1688,7 @@
             right: 0;
             bottom: 0;
         }
-        .testimonials-img {
+        .membership-img {
             img {
                 &:nth-child(1) {
                     display: none;
@@ -1711,7 +1711,7 @@
             }
         }
     }
-    /*-- End Testimonials --*/
+    /*-- End membership --*/
 
     /*-- Talk --*/
     .talk-area {
